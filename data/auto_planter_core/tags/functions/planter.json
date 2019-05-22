@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "crop_planter:wheat_planter",
+    "crop_planter:potato_planter",
+    "crop_planter:carrot_planter"
+  ]
+}
