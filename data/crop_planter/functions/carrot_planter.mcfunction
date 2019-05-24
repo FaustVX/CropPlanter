@@ -1,2 +1,2 @@
-execute as @s[nbt={Item:{id:"minecraft:carrot"}}] at @s if block ~ ~-.75 ~ minecraft:farmland[moisture=7] run tag @s add faustvx.plant
+execute as @s[nbt={Item:{id:"minecraft:carrot"}}] if score _carrot.activated faustvx.planter matches 1 at @s if block ~ ~-.75 ~ minecraft:farmland[moisture=7] run tag @s add faustvx.plant
 execute as @s[nbt={Item:{id:"minecraft:carrot"}},tag=faustvx.plant] at @s run setblock ~ ~.25 ~ minecraft:carrots

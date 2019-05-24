@@ -1,2 +1,2 @@
-execute as @s[nbt={Item:{id:"minecraft:pumpkin_seeds"}}] at @s if block ~ ~-.75 ~ minecraft:farmland[moisture=7] run tag @s add faustvx.plant
+execute as @s[nbt={Item:{id:"minecraft:pumpkin_seeds"}}] if score _pumpkin.activated faustvx.planter matches 1 at @s if block ~ ~-.75 ~ minecraft:farmland[moisture=7] run tag @s add faustvx.plant
 execute as @s[nbt={Item:{id:"minecraft:pumpkin_seeds"}},tag=faustvx.plant] at @s run setblock ~ ~.25 ~ minecraft:pumpkin_stem
