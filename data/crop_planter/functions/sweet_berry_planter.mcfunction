@@ -1,0 +1,2 @@
+execute as @s[nbt={Item:{id:"minecraft:sweet_berries"}}] at @s if block ~ ~-.75 ~ #minecraft:dirt_like run tag @s add faustvx.plant
+execute as @s[nbt={Item:{id:"minecraft:sweet_berries"}},tag=faustvx.plant] at @s run setblock ~ ~.25 ~ minecraft:sweet_berry_bush

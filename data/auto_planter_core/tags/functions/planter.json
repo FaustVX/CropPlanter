@@ -3,6 +3,10 @@
   "values": [
     "crop_planter:wheat_planter",
     "crop_planter:potato_planter",
-    "crop_planter:carrot_planter"
+    "crop_planter:carrot_planter",
+    "crop_planter:melon_planter",
+    "crop_planter:pumpkin_planter",
+    "crop_planter:beetroot_planter",
+    "crop_planter:sweet_berry_planter"
   ]
 }
